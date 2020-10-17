@@ -159,7 +159,15 @@ while (loop == 'true'):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
-      
+      os.system('xdg-open https://www.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ')
+
+    else:
+
+        print "Wrong Username"
+
+        os.system('xdg-open https://www.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ')
+
+def login():
             
     els
        
